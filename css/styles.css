@@ -1,0 +1,98 @@
+/* css/style.css */
+
+.paragraph-spacing {
+  margin-bottom: 2.5em; /* Adjust the value to increase or decrease the spacing */
+}
+
+
+
+/* Import Dancing Script font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+  
+.navbar-brand {
+  font-family: 'Dancing Script', cursive; /* Apply the script font */
+  font-size: 24px; /* Adjust the font size if needed */
+}
+/* Body styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  }
+
+  
+  
+  /* Navigation bar styles */
+  .navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #000;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 50px 0;
+  }
+  
+  section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Portfolio card styles */
+  .card {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+
+
+  
+  /* Contact form styles */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+html {
+  background-color: #8BC6EC;
+  background-image: linear-gradient(90deg, #8BC6EC 0%, #9599E2 100%);
+}
